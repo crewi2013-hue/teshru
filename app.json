@@ -4,7 +4,7 @@
   "repository": "https://github.com/crewi2013-hue/teshru",
   "buildpacks": [
     {
-      "url": "heroku/python"
+      "url": "heroku/nodejs"
     }
   ]
 }
