@@ -1,0 +1,17 @@
+{
+  "name": "LSCPU Heroku Check",
+  "description": "Aplikasi atau script sederhana untuk mengecek spesifikasi CPU server Heroku (lscpu).",
+  "repository": "https://github.com/username-github-kamu/nama-repo-kamu",
+  "logo": "https://cdn.iconscout.com/icon/free/png-256/heroku-225989.png",
+  "keywords": [
+    "python",
+    "flask",
+    "lscpu",
+    "linux"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
